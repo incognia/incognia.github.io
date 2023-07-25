@@ -174,7 +174,7 @@ then(TE.wait.bind(TE, 2000, false)).
 then(TE.enterInput.bind(TE, 'ls /bin/skils')).
 then(TE.enterCommand.bind(TE)).
 then(TE.wait.bind(TE, 400)).
-then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;linux&nbsp;&nbsp;unix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;windows&nbsp;bash&nbsp;&nbsp;&nbsp;&nbsp;powershell&nbsp;python&nbsp;c++')).
+then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;linux&nbsp;&nbsp;&nbsp;unix&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;windows&nbsp;&nbsp;bash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;powershell&nbsp;&nbsp;python&nbsp;&nbsp;c++')).
 then(TE.wait.bind(TE, 400)).
-then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;docker&nbsp;kubernetes&nbsp;ansible&nbsp;jenkins&nbsp;gcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;azure&nbsp;&nbsp;aws')).
+then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;docker&nbsp;&nbsp;kubernetes&nbsp;&nbsp;ansible&nbsp;&nbsp;jenkins&nbsp;&nbsp;gcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;azure&nbsp;&nbsp;&nbsp;aws')).
 then(TE.reset.bind(TE));
