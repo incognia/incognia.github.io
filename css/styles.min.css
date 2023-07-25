@@ -11,7 +11,7 @@ a{
 	color:#232323;
 }
 a:hover{
-	color:#9c27b0;
+	color:steelblue;
 }
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
     outline: none;
@@ -39,7 +39,7 @@ a:hover{
     line-height: 28px
 }
 .sidebarWrapper {
-	background: #9c27b0;
+	background: steelblue;
 	text-align: center;
 	height: 100%;
 }
@@ -102,7 +102,7 @@ li {
     margin-bottom: 50px;
 }
 .section-title h2::after {
-   background: #9c27b0 none repeat scroll 0 0;
+   background: steelblue none repeat scroll 0 0;
     content: "";
     display: table;
     height: 2px;
@@ -202,7 +202,7 @@ li {
     transition: all 0.1s linear 0s;
 }
 .sidebar .nav li a:hover, .sidebar .nav li.active a {
-    color: #9c27b0;
+    color: steelblue;
     opacity: unset;
 }
 
@@ -265,7 +265,7 @@ li {
     margin: 0;
 }
 .progress-bar {
-    background: #9c27b0 none repeat scroll 0 0;
+    background: steelblue none repeat scroll 0 0;
 }
 .services-background {
     margin-bottom: -30px;
@@ -337,7 +337,7 @@ li {
     width: 100%;
 }
 .imageHover {
-    background: rgba(156, 39, 176, 0.9) none repeat scroll 0 0;
+    background: rgba(70, 130, 180, 0.9) none repeat scroll 0 0;
     color: #fff;
     height: 100%;
     left: 0;
@@ -406,7 +406,7 @@ button.mfp-close:hover {
     background: #fff none repeat scroll 0 0;
     border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    color: #9c27b0;
+    color: steelblue;
     float: left;
     font-size: 29px;
     height: 100px;
@@ -768,5 +768,5 @@ textarea {
     background: #ca3737 none repeat scroll 0 0;
 }
 textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="number"]:focus, .form-control[type="text"]:focus, .form-control[type="password"]:focus, .form-control[type="email"]:focus, .form-control[type="tel"]:focus, .form-control[contenteditable]:focus {
-    box-shadow: 0 -2px 0 #8c17a0 inset;
+    box-shadow: 0 -2px 0 royalblue inset;
 }
