@@ -131,7 +131,7 @@ then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mail: incognia@gma
 then(TE.wait.bind(TE, 300)).
 then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;&nbsp;&nbsp;phone: +52-55-4516-3631')).
 then(TE.wait.bind(TE, 600)).
-then(TE.enterResponse.bind(TE, '-----------------------------------------------------[ Updated: 2023-07-14 ]----')).
+then(TE.enterResponse.bind(TE, '-----------------------------------------------------[ Updated: 2023-07-14 ]--')).
 then(TE.wait.bind(TE, 2000, false)).
 then(TE.enterInput.bind(TE, 'tree /var/log/jobs')).
 then(TE.enterCommand.bind(TE)).
@@ -169,7 +169,7 @@ then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;&nbsp;&nbsp;├─────0042&n
 then(TE.wait.bind(TE, 300)).
 then(TE.enterResponse.bind(TE, '&nbsp;&nbsp;&nbsp;&nbsp;└─────0041&nbsp;&nbsp;&nbsp;&nbsp;site&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build a complete server room from scratch')).
 then(TE.wait.bind(TE, 600)).
-then(TE.enterResponse.bind(TE, '---------------------------------------[ Last jobs: 3 | Active since: 2000 ]----')).
+then(TE.enterResponse.bind(TE, '---------------------------------------[ Last jobs: 3 | Active since: 2000 ]--')).
 then(TE.wait.bind(TE, 2000, false)).
 then(TE.enterInput.bind(TE, 'ls /bin/skils')).
 then(TE.enterCommand.bind(TE)).
